@@ -1,0 +1,5 @@
+package com.traffic.echallan.exception;
+
+public class NotFoundException extends RuntimeException {
+    public NotFoundException(String m) { super(m); }
+}
